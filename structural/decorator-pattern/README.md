@@ -29,7 +29,7 @@
 + Hide or mor make unavailable actions.
 ***
 ### Benefits and liabilities
-There are four main benefits and liabilities:\
+There are four main benefits and liabilities:
 1. **Flexibility** 
 
     + It's more flexible than static inheritance, since responsibilities are added and removed in dynamically.
@@ -54,7 +54,15 @@ There are four main benefits and liabilities:\
     + The system is easy to understand by knowing it, but it is hard to lean and debug.
 ***
 ### Implementation
-
+1. Define our *Component* class.\
+![Image](resources/Component.jpg)
+2. Create our *Concrete Component* and *Decorator*, both extending from *Component*
+3. Define inside our *Concrete Component* the attributes or storage data we will use.
+4. Inside our *Decorator* whe have to declare one *Component* attribute and add the constructor with one argument.\
+![Image](resources/SecondStep.jpg)
+5. Implement our *Concrete Decorator* by extending from Decorator, when implementing we can add actions 
+before or after the responsibility is attached/unattached.\
+![Image](resources/ThirdStep.jpg)
 ***
 ### Considerations    
 1. *Interface conformation*. Decorator object's interface must acts as the interface of the component it decorates.
@@ -67,6 +75,7 @@ which should be kept as lightweight as possible, that's focus on defining an int
 of a component, the component doesn't need to know anything about its decorators.
  The decorators are transparent to the components. 
 ***
-### Bibliography
+### References
 * Gamma, E., Helm, R., Johnson, R.,, Vlissides, J. M. (1994). 
 *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley Professional. ISBN: 0201633612
+* [https://yuml.me/diagram/scruffy/class/draw](https://yuml.me/diagram/scruffy/class/draw)
