@@ -1,11 +1,5 @@
 package com.jolopez;
 
-import com.sun.tools.javac.util.StringUtils;
-import jdk.internal.joptsimple.internal.Strings;
-
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Hello world!
  *
