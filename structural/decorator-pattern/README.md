@@ -26,7 +26,7 @@
 + To add and remove responsibilities.
 + When subclassing is not the best option.
 + To avoid giving support to many independent extensions.
-+ Hide or mor make unavailable actions.
++ Hide or make unavailable actions.
 ***
 ### Benefits and liabilities
 There are four main benefits and liabilities:
