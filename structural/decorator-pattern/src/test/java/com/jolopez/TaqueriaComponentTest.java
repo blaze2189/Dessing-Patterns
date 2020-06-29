@@ -1,9 +1,11 @@
 package com.jolopez;
 
 import junit.framework.TestCase;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class TaqueriaComponentTest extends TestCase {
+import static org.junit.Assert.assertTrue;
+
+public class TaqueriaComponentTest {
 
     @Test
     public void taqueriaCarnitasConBarra(){
@@ -18,7 +20,7 @@ public class TaqueriaComponentTest extends TestCase {
 
             taqueria = new MesasDecorator(new BarraDecorator(new ServicioParaLllevarDecorator(new TaqueriaComponent("carnitas"))));
             taqueria.decorate();
-
+            assertTrue(true);
     }
 
 
