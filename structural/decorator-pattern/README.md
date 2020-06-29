@@ -51,7 +51,7 @@ There are four main benefits and liabilities:
 4. **Lots of little objects**
 
     + We will have a system composed of similar little objects.
-    + The system is easy to understand by knowing it, but it is hard to lean and debug.
+    + The system is easy to understand by knowing it, but it is hard to learn and debug.
 ***
 ### Implementation
 1. Define our *Component* class.\
