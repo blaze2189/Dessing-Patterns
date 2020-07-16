@@ -2,5 +2,8 @@
 */**/.idea
 */**/target/*
 */**/structural/*
+<<<<<<< HEAD
 >>>>>>> DecoratorDemo add demo
 /.project
+=======
+>>>>>>> 7ac70f7fb6d74174e265d7825d6d7996a97852e9

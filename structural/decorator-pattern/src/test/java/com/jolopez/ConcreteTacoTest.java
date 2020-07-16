@@ -1,7 +1,6 @@
 package com.jolopez;
 
 import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
 
 public class ConcreteTacoTest {
@@ -24,7 +23,6 @@ public class ConcreteTacoTest {
 
         taco2 = new DecorateTacoSalsaRoja(taco2);
         taco2.decorte();
-
 
         taco2 = new ConcreteTaco("pastor");
         assertTrue(true);
